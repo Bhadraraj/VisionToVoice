@@ -9,7 +9,7 @@ Tesseract.recognize('./para.png', 'eng', { logger: e => console.log(e) })
     console.log("Recognized Text:", text); // Output the recognized text
 
     // Use the say library to convert the text to speech
-    say.speak(text, 'Alex', 1.0, (err) => {
+    say.speak(text, 'Microsoft Zira Desktop', 1.0, (err) => {
       if (err) {
         console.error("Error converting text to speech:", err);
       } else {
