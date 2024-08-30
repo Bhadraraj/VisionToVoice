@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@google-cloud/speech": "^6.7.0",
     "say": "^0.16.0",
     "tesseract.js": "^5.1.1"
   }
